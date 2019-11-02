@@ -6,7 +6,7 @@ All credits go to [Elizabet Oliveira](https://github.com/miukimiu).
 
 # Contribute
 
-Contribution are more than welcome. You can take an existing component from the react-kawaii project and port it to Angular. 
+Contributions are more than welcome. You can take an existing component from the react-kawaii project and port it to Angular. 
 It is basically a copy & paste, with some exceptions:
 * We need to add a svg prefix so that the Angular compiler knows that we'r rendering a SVG. So `<g ...></g>` turns into `<svg:g ..></svg:g>`.
 * We need to tell Angular that we are using attribute bindings instead of the default property binding. So `<svg:g [d]="paths" ...>` 
@@ -19,8 +19,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Run
 
 ```
+// 1.)
 npm install angular-kawaii
 
+// 2.) Import the AngularKawaiiModule
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AngularKawaiiModule],
@@ -30,7 +32,7 @@ npm install angular-kawaii
 })
 export class AppModule {}
 
-// app.component.html
+// 3.) Usage
 
 <Planet mood="happy" color="#A6E191"></Planet>
 
