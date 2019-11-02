@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-kawaii": [
+        "dist/angular-kawaii"
+      ],
+      "angular-kawaii/*": [
+        "dist/angular-kawaii/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

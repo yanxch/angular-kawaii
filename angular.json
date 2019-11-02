@@ -120,6 +120,41 @@
           }
         }
       }
+    },
+    "angular-kawaii": {
+      "projectType": "library",
+      "root": "projects/angular-kawaii",
+      "sourceRoot": "projects/angular-kawaii/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular-kawaii/tsconfig.lib.json",
+            "project": "projects/angular-kawaii/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-kawaii/src/test.ts",
+            "tsConfig": "projects/angular-kawaii/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-kawaii/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular-kawaii/tsconfig.lib.json",
+              "projects/angular-kawaii/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "sample-app"
 }

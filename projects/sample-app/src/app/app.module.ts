@@ -1,19 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PlanetComponent } from './planet/planet.component';
+import { AngularKawaiiModule } from 'angular-kawaii';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PlanetComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AngularKawaiiModule],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [NO_ERRORS_SCHEMA]
+  schemas: []
 })
-export class AppModule { }
+export class AppModule {}
