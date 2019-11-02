@@ -1,6 +1,13 @@
 {
   "name": "angular-kawaii",
-  "version": "0.0.1",
+  "description": "Angular Kawaii is port from the awesome React Kawaii library.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanxch/angular-kawaii.git"
+  },
+  "author": "CJ",
+  "license": "MIT",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^8.2.13",
     "@angular/core": "^8.2.13"
