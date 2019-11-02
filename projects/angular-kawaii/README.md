@@ -19,8 +19,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Run
 
 ```
+// 1.)
 npm install angular-kawaii
 
+// 2.) Import the AngularKawaiiModule
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AngularKawaiiModule],
@@ -30,7 +32,7 @@ npm install angular-kawaii
 })
 export class AppModule {}
 
-// app.component.html
+// 3.) Usage
 
 <Planet mood="happy" color="#A6E191"></Planet>
 
