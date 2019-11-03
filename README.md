@@ -1,8 +1,16 @@
 # AngularKawaii
 
+<div align="center" markdown="1">
+  <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/master/docs/images/react-kawaii-logo%402x.png" width="450">
+</div>
+
 This is the Angular port of the awesome [react-kawaii](https://github.com/miukimiu/react-kawaii) component library.
 All credits go to [Elizabet Oliveira](https://github.com/miukimiu).
 
+
+## Example
+
+# ![React Kawaii Example](https://github.com/miukimiu/react-kawaii/blob/master/docs/images/react-kawaii-example.gif?raw=true)
 
 # Contribute
 
