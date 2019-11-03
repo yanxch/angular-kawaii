@@ -1,4 +1,6 @@
 # AngularKawaii
+[![Version](https://img.shields.io/npm/v/angular-kawaii.svg?style=flat-square)](https://www.npmjs.com/package/angular-kawaii)
+![npm](https://img.shields.io/npm/dt/angular-kawaii.svg)
 
 <div align="center" markdown="1">
   <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/master/docs/images/react-kawaii-logo%402x.png" width="450">
