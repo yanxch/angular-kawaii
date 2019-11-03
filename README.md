@@ -31,6 +31,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 npm install angular-kawaii
 
 // 2.) Import the AngularKawaiiModule
+
+import { AngularKawaiiModule } from 'angular-kawaii';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AngularKawaiiModule],
