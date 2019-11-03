@@ -7,7 +7,7 @@
 </div>
 
 This is the Angular port of the awesome [react-kawaii](https://github.com/miukimiu/react-kawaii) component library.
-All credits goes to [Elizabet Oliveira](https://github.com/miukimiu).
+All credit goes to [Elizabet Oliveira](https://github.com/miukimiu).
 
 
 ## Example
